@@ -19,7 +19,7 @@ void print_bar(int size, float progress, int strike_zone) {
         } else if (i < progress * size) {
             printf("=");
         } else {
-            printf(" ");cd 
+            printf(" ");
         }
         if (i == end - 1) {
             printf("]");
